@@ -19,6 +19,7 @@ export const StartPage: OptimizelyNextPage<StartPageDataFragment> = ({
 }) => {
   return (
     <div className="landing-page">
+      <h1>Fancy Demo Landing Page</h1>
       <CmsContentArea fieldName="HomePageHeroContentArea" items={HomePageHeroContentArea} className="w-full" />
       <CmsContentArea fieldName="HomePageMainContentArea" items={HomePageMainContentArea} className="w-full" />
     </div>
